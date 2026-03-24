@@ -1,16 +1,23 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "URL shortening service",
+  "description": "🔗 A fast, lightweight URL shortening service built with Node.js",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "node tests/shortener.test.js"
   },
   "keywords": [
-    "url",
-    "shortener"
+    "url-shortener",
+    "nodejs",
+    "api",
+    "rest-api",
+    "microservice",
+    "javascript"
   ],
-  "author": "RyanMoshi",
-  "license": "MIT"
+  "author": "Ryan Moshi",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
 }
